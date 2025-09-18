@@ -14,8 +14,8 @@ class Task {
         bool taskComplete();
         string getStatus();
 
-    Task(string taskName, bool isComplete) {
-        name = taskName;
-        taskDone = isComplete;
-    }
+        Task(string taskName, bool isComplete) {
+            name = taskName;
+            taskDone = isComplete;
+        }
 };
