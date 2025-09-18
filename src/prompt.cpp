@@ -4,12 +4,11 @@
 
 using std::string;
 
-string Prompt::printText(string promptText, bool returnValue) {
+string Prompt::printText(string promptText) {
     std::cout << promptText;
-            if (returnValue) {
-                std::getline(std::cin, promptOutput);
-                return promptOutput;
-            }
-    return "";
+}
+
+string Prompt::checkInput() {
+    std::getline(std::cin, promptOutput);
 }
 

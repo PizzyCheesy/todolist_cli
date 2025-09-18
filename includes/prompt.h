@@ -8,5 +8,6 @@ class Prompt {
         std::string promptOutput;
 
     public:
-        std::string printText (std::string promptText, bool returnValue);
+        std::string printText (std::string promptText);
+        std::string checkInput ();
 };
