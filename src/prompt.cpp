@@ -6,9 +6,11 @@ using std::string;
 
 string Prompt::printText(string promptText) {
     std::cout << promptText;
+    return promptText;
 }
 
 string Prompt::checkInput() {
-    std::getline(std::cin, promptOutput);
+    std::getline(std::cin, promptInput);
+    return promptInput;
 }
 

@@ -5,7 +5,7 @@
 class Prompt {
     private:
         std::string promptText;
-        std::string promptOutput;
+        std::string promptInput;
 
     public:
         std::string printText (std::string promptText);
